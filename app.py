@@ -17,7 +17,7 @@ import requests
 import json
 from langchain.schema import SystemMessage
 import streamlit as st
-
+from fastapi import FastAPI
 load_dotenv()
 brwoserless_api_key = os.getenv("BROWSERLESS_API_KEY")
 serper_api_key = os.getenv("SERP_API_KEY")
