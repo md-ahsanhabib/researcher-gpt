@@ -1,4 +1,4 @@
-#fastapi[all]
+fastapi[all]
 streamlit
 openai
 python-dotenv
